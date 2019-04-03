@@ -3,7 +3,7 @@
     =========================================================================== 
      Created on:      29.8.2018       
      Created by:      Saar Levin  
-     Organization:    ForeScout   
+     Organization:    
     =========================================================================== 
     .DESCRIPTION 
         This script will create and move logs folder location
