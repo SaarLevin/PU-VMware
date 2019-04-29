@@ -27,9 +27,9 @@ function Get-FolderPath {
 
         if ($parent.parent){
             if($moref){
-                get-vmfolderpath $parent.parent.tostring() -moref
+                Get-FolderPath $parent.parent.tostring() -moref
             } else {
-                get-vmfolderpath($parent.parent.tostring())
+                Get-FolderPath($parent.parent.tostring())
             }
         }
     } else {
